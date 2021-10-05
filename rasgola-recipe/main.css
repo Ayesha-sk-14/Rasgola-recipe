@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.maindiv{
+    width: 80vw;
+    /* padding:100px; */
+    margin:64px auto;
+    background-color: #fdd7bc;
+    border:solid  #ffd0af;
+    border-radius: 20px;
+}
+
+.content{
+    padding:25px 100px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius:  20px;
+}
+
+.heading{
+    text-align: center;
+    margin: 25px;
+    line-height:60px;
+}
+
+.heading h1{
+    font-family: 'Ephesis', cursive;
+    font-size: 90px;
+    color: white;
+}
+
+.heading p{
+    font-size: 20px;
+    color: white;    
+}
+
+.topic{
+    font-family: 'Ephesis', cursive;
+    font-weight : bold;
+    font-size: 50px;
+    color: #852747;
+}
+
+ul,ol{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 15px 0 15px 50px;
+    padding:15px 0 15px 50px;
+    line-height: 2.0rem;
+    font-size: 20px;
+    color: #af547c;
+}
+
+/* ol{
+    margin: 15px 25px ;
+    padding:15px 25px ;
+    line-height: 1.5rem;
+} */
