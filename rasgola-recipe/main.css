@@ -7,10 +7,10 @@
 .maindiv{
     width: 80vw;
     /* padding:100px; */
-    margin:64px auto;
+    margin:64px auto 0 auto;
     background-color: #fdd7bc;
     border:solid  #ffd0af;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
 }
 
 .content{
@@ -32,18 +32,19 @@ img{
 .heading h1{
     font-family: 'Ephesis', cursive;
     font-size: 90px;
-    color: white;
+    color: #ffff;
+    text-shadow: 2px 2px 2px #852747 ;
 }
 
 .heading p{
     font-size: 20px;
-    color: white;    
+    color: #ffff;    
 }
 
 .topic{
     font-family: 'Ephesis', cursive;
     font-weight : bold;
-    font-size: 50px;
+    font-size: 60px;
     color: #852747;
 }
 
@@ -52,10 +53,26 @@ ul,ol{
     margin: 15px 0 15px 50px;
     padding:15px 0 15px 50px;
     line-height: 2.0rem;
-    font-size: 20px;
+    font-size: 25px;
     color: #af547c;
 }
 
+.footer-icons{
+    background-color: #852747;
+    display: flex;
+    justify-content:space-evenly ;
+    width: 80vw;
+    margin:0 auto 64px auto;
+    padding:20px 0;
+    border:solid  #852747;
+    border-radius:0 0 20px 20px;
+}
+
+.footer-icon{
+    border-radius: 0;
+    width: 50px;
+    height:50px;
+}
 /* ol{
     margin: 15px 25px ;
     padding:15px 25px ;
